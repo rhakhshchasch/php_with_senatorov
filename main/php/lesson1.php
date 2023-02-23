@@ -1,7 +1,7 @@
 <?php
-echo 'Hello World';
+echo 'Hello World ';
 
-$name = ' and Alexey';
+$name = 'Alexey ';
 echo $name;
 
 // $1number = 17; - wrong name for variable, first symbol can't be a number
@@ -14,8 +14,8 @@ $number1 = 17;//comment: we use '=' to assign values
 
 // bool, int, str, float
 
-$surname = 'Pershikov';
+$surname = 'Pershikov ';
 
 echo $name . ' ' . $surname; // we use '.' to make concatenation for strings
 
-echo (5 * $name);
+echo str_repeat($name, 5);
