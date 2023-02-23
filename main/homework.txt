@@ -16,3 +16,7 @@ PHP:
 
 Ответы \main\php\homework1.php
 
+Оценка:4
+
+
+
