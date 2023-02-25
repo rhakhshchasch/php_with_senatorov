@@ -47,3 +47,19 @@ PHP:
 2)Comparison operators
 
 Ответы \main\php\homework2.php
+
+02/25/23
+
+PHP:
+1)Logical operators
+2)Incrementing and decrementing operators
+3)shortcuts like += or -= написать длинную форму записи
+4)Operator precedence в каком порядке приоритет
+5)булев тип данных
+6)что есть false?
+7)создай пустой Array, двумя способами. добавь динамичекий один элимент. выведи на экран его значение.
+8)что такое var_dump 
+9)empty function, напиши синтаксис и какие принимают параметры, https://php.net/
+10)isset function напиши синтаксис и какие принимают параметры, https://php.net/
+
+Ответы \main\php\homework3.php
