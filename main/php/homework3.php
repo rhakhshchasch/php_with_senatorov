@@ -1,5 +1,5 @@
 <!--Some notes on GET requests:-->
-<!---->
+<!--отображается в URL-->
 <!--$_GET-->
 <!--GET requests can be cached-->
 <!--GET requests remain in the browser history-->
@@ -9,7 +9,7 @@
 <!--GET requests are only used to request data (not modify)-->
 <!---->
 <!--Some notes on POST requests:-->
-<!---->
+<!--Не отображается в URL-->
 <!--$_POST-->
 <!--POST requests are never cached-->
 <!--POST requests do not remain in the browser history-->
