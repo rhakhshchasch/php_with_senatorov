@@ -67,4 +67,4 @@ PHP:
 
 Ответы \main\php\homework3.php
 
-Оценка:5
+Оценка:4+
