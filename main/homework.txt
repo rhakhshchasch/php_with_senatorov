@@ -48,6 +48,8 @@ PHP:
 
 Ответы \main\php\homework2.php
 
+Оценка:4
+
 02/25/23
 
 PHP:
@@ -56,7 +58,7 @@ PHP:
 3)shortcuts like += or -= написать длинную форму записи
 4)Operator precedence в каком порядке приоритет
 5)булев тип данных
-6)что есть false?
+6)что есть false? (https://www.php.net/manual/ru/types.comparisons.php посмотреть)
 7)создай пустой Array, двумя способами. добавь динамичеcкий один элимент. выведи на экран его значение.
 8)что такое var_dump 
 9)empty function, напиши синтаксис и какие принимают параметры, https://php.net/
@@ -64,3 +66,5 @@ PHP:
 
 
 Ответы \main\php\homework3.php
+
+Оценка:5
