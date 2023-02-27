@@ -30,7 +30,8 @@ $a || $b	Or      "ИЛИ" - больший приоритет
 $g = true && false;
 
 $g невозможно быть и true и false одновременно. 
-
+в итоге какой результат в консоли?
+посмотреть https://uchim.org/matematika/tablica-istinnosti
 
 2. 
 ++$a	Pre-increment	Increments $a by one, then returns $a.
