@@ -33,7 +33,7 @@ $g невозможно быть и true и false одновременно.
 в итоге какой результат в консоли?
 посмотреть https://mathhelpplanet.com/static.php?p=algebra-vyskazyvaniy-i-operatsii-nad-vyskazyvaniyami
 ЭТО БАЗА - https://isu.nntu.ru/doc/mat_log.pdf
-
+Позравляю, мы выкидываем алгоритмы из плана обучения и добавляем мат. логику!
 2. 
 ++$a	Pre-increment	Increments $a by one, then returns $a.
 $a++	Post-increment	Returns $a, then increments $a by one.
