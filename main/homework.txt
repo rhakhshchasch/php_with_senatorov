@@ -82,6 +82,7 @@ algo:
 1) make https://projecteuler.net/problem=2
 ответы main\algo\euler.php
 
+оценка:5 за решение задач исходя из полученных знаний.
 
 
 
