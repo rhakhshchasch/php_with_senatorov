@@ -99,5 +99,5 @@ php:
 11) что это? strtolower,strlen,trim,str_replace,substr,strpos
 
 Ответы \main\php\homework5.php
-
+оценка:5
 
