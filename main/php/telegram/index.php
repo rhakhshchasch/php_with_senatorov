@@ -14,8 +14,8 @@ include "controller/telegram.php";
 <body>
     <form class="form-message" action="" method="POST">
         <h1>Telegram</h1>
-        <input type="text" name="first_name">
-        <input type="text" name="last_name">
+        <input id="test" type="text" name="first_name">
+        <input id="test" type="text" name="last_name">
         <input type="submit" name="submit">
     </form>
 </body>
