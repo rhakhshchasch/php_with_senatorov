@@ -13,7 +13,7 @@
 
 <body>
 <h1>Calculator</h1>
- <form class="form-message" action="controller/calculator.php" method="post">
+ <form class="form-message" action="controller/calculator.php" method="POST">
  <label for="num1">Enter first number</label>   
  <input type="number" name="num1" id=""><br><br>
  <select name="operator" id="">
@@ -24,7 +24,7 @@
  </select><br><br>
  <label for="num2">Enter second number</label>   
  <input type="number" name="num2" id=""><br><br>
- <input type="submit" value="Result!"><br><br>
+ <input type="submit" name="submit" value="Result!"><br><br>
  </form>
 </body>
 </html>
