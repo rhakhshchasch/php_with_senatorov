@@ -15,7 +15,7 @@
 <h1>Calculator</h1>
  <form class="form-message" action="controller/calculator.php" method="POST">
  <label for="num1">Enter first number</label>   
- <input type="float" name="num1" id=""><br><br>
+ <input type="text" name="num1" id=""><br><br>
  <select name="operator" id="">
     <option value="+">sum</option>
     <option value="-">difference</option>
@@ -23,7 +23,7 @@
     <option value="/">division</option>
  </select><br><br>
  <label for="num2">Enter second number</label>   
- <input type="float" name="num2" id=""><br><br>
+ <input type="text" name="num2" id=""><br><br>
  <input type="submit" name="submit" value="Result!"><br><br>
  </form>
 </body>
