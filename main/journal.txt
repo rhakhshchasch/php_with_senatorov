@@ -81,3 +81,50 @@
 7. Функция видит глобальные переменные, но "снаружи" нельзя прочитать локальные переменные.
 8. Есть строгая (жёсткая) типизация или type hinting, объявляется первой строкой: declare(strict_types=1);
    Что это такое я не понял. И пока не пойму, за такие проекты лучше не браться.
+
+
+
+
+07.04.2023 - начали знакомиться с AJAX
+1. jQuery - это набор функций (библиотека) JavaScript, фокусирующийся на взаимодействии JavaScript и HTML.
+2. AJAX - это один из методов jQuery.
+3. AJAX передают данные с фронта на бэк и выводит ответ бэка без перезагрузки страницы.
+4. jQuery подключается в теге <head> до подключения файла с JS кодом.
+5. В части передачи данных AJAX-запрос по сути представляет собой ассоциативный массив (ключ : значение).
+6. Также в AJAX-запросе прописываются варианты исполнения: beforeSend, success, error, complete.
+7. Пример:
+	var i = 0;
+	function AjaxSendForm(url, placeholder, form, append) {
+	var data = $(form).serialize();
+	append = (append === undefined ? false : true); // whatever, it will evaluate to true or false only
+	$.ajax({
+    		type: 'POST',
+    		url: url,
+    		data: data,
+    		beforeSend: function() {
+        	// setting a timeout
+        	$(placeholder).addClass('loading');
+        	i++;
+    	},
+    		success: function(data) {
+        		if (append) {
+            		$(placeholder).append(data);
+        		} else {
+            		$(placeholder).html(data);
+        		}
+    		},
+  		error: function(xhr) { // if error occured
+       			alert("Error occured.please try again");
+        		$(placeholder).append(xhr.statusText + xhr.responseText);
+       	 		$(placeholder).removeClass('loading');
+    		},
+    		complete: function() {
+        		i--;
+       			if (i <= 0) {
+        		$(placeholder).removeClass('loading');
+        		}
+    		},
+    		dataType: 'html'
+		});
+	}
+   (https://stackoverflow.com/questions/21648356/jquery-ajax-beforesend-and-success-error-complete)
