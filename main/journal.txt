@@ -128,3 +128,26 @@
 		});
 	}
    (https://stackoverflow.com/questions/21648356/jquery-ajax-beforesend-and-success-error-complete)
+
+
+
+
+08.04.2023 - продолжили знакомиться с AJAX
+1. значение "json" в параметре "dataType" AJAX-запроса значит что фронт будет ждать ответ от сервера 
+   в формате "json".
+2. Формат "json" конвертирует данные в строку. 
+3. Есть какая-то проблема у json и var_dump.     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+4. Параметр "data" показывает какие данные передаются на сервер.
+5. К параметрам "data" можно обратиться по ключу.
+   Пример:
+   $.ajax({
+	url: '/php_Aleksey/main/php/calculator_function_AJAX/controller/calculator.php',
+	method: 'post',
+	dataType: 'json',
+	data: {text: 'Текст'},
+		success: function(data){
+			console.log(data.text);
+		},
+    	...
+   });
+   В консоль выведет просто "Текст"

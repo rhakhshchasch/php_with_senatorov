@@ -4,7 +4,8 @@ function d($data){  //debug function, режим дебага - все ошиб�
     var_dump($data); //На этой строке data - аргумент функции - передает аргумент (данные)
     echo "</pre>";
 }
-// d($_POST);
+
+echo json_encode($_POST);
 
 
 
@@ -63,6 +64,7 @@ if($num1 == NULL || $num2 == NULL){
             echo "Something went wrong";
             break;
     }
-    if(isset($result)) echo "Result: " . $result;
+    $json = json_encode($result);
+    if(isset($result)) echo "Result: " . $json;
 }
 }
