@@ -1,4 +1,4 @@
-<?php include 'controller/calculator.php'; ?>
+<?php //include 'controller/calculator.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +14,8 @@
 
 <body>
 <h1>Calculator</h1>
- <form class="form-message" action="controller/calculator.php" method="POST">
+ <form class="form-message" id="form"> 
+    <!-- наверху снесли action -->
  <label for="num1">Enter first number</label>   
  <input type="text" name="num1" id=""><br><br>
  <select name="operator" id="">
