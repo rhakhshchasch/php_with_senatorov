@@ -1,5 +1,14 @@
 <?php //include 'controller/calculator.php'; ?>
 
+<!-- 
+1. Проверяю, работает ли AJAX
+2. Смотрю, есть ли 404 (500)
+3. Смотрю, возвращаются ли данные с бэкенда
+4. Если данные возвращаются, то какого типа? Комментируем dataType в js
+5. Проверяем вывод консоли -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +24,7 @@
 <body>
 <h1>Calculator</h1>
  <form class="form-message" id="form"> 
-    <!-- наверху снесли action -->
+    <!-- наверху снесли action - отправку данных на контроллер (calculator.php) -->
  <label for="num1">Enter first number</label>   
  <input type="text" name="num1" id=""><br><br>
  <select name="operator" id="">
@@ -26,7 +35,9 @@
  </select><br><br>
  <label for="num2">Enter second number</label>   
  <input type="text" name="num2" id=""><br><br>
- <input type="submit" name="submit" value="Result!"><br><br>
+ <input type="hidden" name="submit" value="1">
+ <input type="submit" value="Result!"><br><br>
+ <div id="AJAX"> Итого: <div id="ajaxResult"></div></div>
  </form>
 </body>
 </html>
